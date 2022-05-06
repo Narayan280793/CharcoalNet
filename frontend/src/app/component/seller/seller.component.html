@@ -1,0 +1,817 @@
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-flex align-items-center fixed-top">
+  <div
+    class="container d-flex align-items-center justify-content-end justify-content-md-end"
+  >
+    <div class="d-flex align-items-center me-2">
+      <i class="bi bi-headphones"></i> Customer Support
+    </div>
+    <div class="d-flex align-items-center"><i class="bi bi-globe"></i> ENG</div>
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <a [routerLink]="['/index']" class="logo me-auto"
+      ><img src="assets/img/logo.png" alt=""
+    /></a>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" [routerLink]="['/index']">Home</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/buy']">buy</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/sell']">sell</a></li>
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/transport']"
+            >Transport</a
+          >
+        </li>
+        <li><a class="nav-link scrollto" [routerLink]="['']">About Us</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/faq']">FAQ</a></li>
+
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/contact']">Contact</a>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!-- .navbar -->
+    <a [routerLink]="['/login']" class="login-btn scrollto">log in</a>
+    <a [routerLink]="['/register']" class="appointment-btn scrollto"
+      >Register</a
+    >
+  </div>
+</header>
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section class="general-service-section">
+  <div class="general-service-section-title text-center">
+    <h3 class="fw-bolder">Seller Profile</h3>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!-- Browse Charcoal Products and Firewood start -->
+<div class="d-flex flex-row justify-content-center">
+  <div class="bread-crums-main">
+    <a href="" class="active">home</a>
+    <a href="">Seller Profile</a>
+  </div>
+</div>
+<section class="container">
+  <div class="col-md-12">
+    <div class="card pt-4 ps-4 seller_bg">
+      <div class="row justify-content-between">
+        <div class="col-md-9 d-flex">
+          <img
+            src="assets/img/sellfire.png"
+            class="main-image my-4"
+            alt="..."
+            width="100"
+            height="100"
+          />
+          <div class="d-flex flex-column py-2 px-4">
+            <p><span class="fw-bolder">@fireup75</span></p>
+            <p>
+              accusantium doloremque laudantium, totam rem<br />
+              aperiam, eaque ipsa quae
+            </p>
+            <p>Member since 2016</p>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex py-4">
+          <div class="">
+            <img src="./assets/img/Ghrline.svg" width="30px" height="60px" />
+          </div>
+          <div class="">
+            <h3 fw-bold>$4000</h3>
+            <p>Total Earnings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container seller_tp">
+  <div class="col-md-12">
+    <div class="card seller_crd">
+      <div class="d-flex justify-content-between pt-4">
+        <div class="ps-4">
+          <h3 class="fw-bold">Total Listings</h3>
+        </div>
+        <div class="pe-4">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-listings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-listings"
+                type="button"
+                role="tab"
+                aria-controls="pills-listings"
+                aria-selected="true"
+              >
+                Total Listings
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-feedback-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-feedback"
+                type="button"
+                role="tab"
+                aria-controls="pills-feedback"
+                aria-selected="false"
+              >
+                Product feedback
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-transaction-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-transaction"
+                type="button"
+                role="tab"
+                aria-controls="pills-transaction"
+                aria-selected="false"
+              >
+                Total Transaction
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="tab-content" id="pills-tabContent">
+      <div
+        class="tab-pane fade show active"
+        id="pills-listings"
+        role="tabpanel"
+        aria-labelledby="pills-listings-tab"
+      >
+        <div class="row">
+          <div class="col-md-2 mt-4">
+            <h4 class="fw-bold">Filter</h4>
+            <div class="">
+              <div class="filter_sell">
+                <div class="form-check filter_active">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    FSC
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Non FSC
+                  </label>
+                </div>
+              </div>
+              <div class="filter_sell">
+                <p class="fw-bold fs-5">Sort By</p>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Lower Price
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Higher Price
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Ending Soon
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Hot Selling
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <section class="product-firewood">
+              <div class="container">
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <div class="title-block-general text-center">
+                      <h3 class="fw-bolder">
+                        <span class="text-green">Browse Charcoal </span>
+                        Products and Firewood
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3"
+                >
+                  <div class="col">
+                    <div class="product-firewood-sell1">
+                      <div class="seller1">
+                        <h1>200mt</h1>
+                        <p>restaurant Charcoal</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="product-firewood-sell2">
+                      <div class="seller1">
+                        <h1>60mt</h1>
+                        <p>Barbecue Charcoal</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="product-firewood-sell3">
+                      <div class="seller1">
+                        <h1>20mt</h1>
+                        <p>Charcoal Fines</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="product-firewood-sell4">
+                      <div class="seller1">
+                        <h1>0mt</h1>
+                        <p>Shisha Charcoal</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="product-firewood-sell5">
+                      <div class="seller1">
+                        <h1>40mt</h1>
+                        <p>Briquettes</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="product-firewood-sell6">
+                      <div class="seller1">
+                        <h1>30mt</h1>
+                        <p>Firewood</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-feedback"
+        role="tabpanel"
+        aria-labelledby="pills-feedback-tab"
+      >
+        <div class="row">
+          <div class="col-md-2 mt-4">
+            <h4 class="fw-bold">Sort By</h4>
+            <div class="">
+              <div class="filter_sell">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    All Ratings
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Positive Ratings
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Neutral Ratings
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Negative Ratings
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div
+              class="tab-pane fade show active"
+              id="pills-listings"
+              role="tabpanel"
+              aria-labelledby="pills-listings-tab"
+            >
+              <div class="col-md-12 filter filter-box sort_fill">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="fw-bold">Pallet Activated Carbon</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its <br />layout. The point of using Lorem Ipsum
+                    </p>
+                    <div class="d-flex">
+                      <p class="pe-4">
+                        <i class="bi bi-person-fill"> </i>Jems Thomas
+                      </p>
+                      <p class="pe-4">
+                        <i class="bi bi-calendar-check pe-2"></i>21 Feb 2022
+                      </p>
+                      <p></p>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill pe-2"></i>
+                      </div>
+                      53
+                      <!-- </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 filter filter-box sort_fill">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="fw-bold">Solid Babool Charcoal</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its<br />
+                      layout. The point of using Lorem Ipsum
+                    </p>
+                    <div class="d-flex">
+                      <p class="pe-4">
+                        <i class="bi bi-person-fill"> </i>Jems Thomas
+                      </p>
+                      <p class="pe-4">
+                        <i class="bi bi-calendar-check pe-2"></i>21 Feb 2022
+                      </p>
+                      <p></p>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill pe-2"></i>
+                      </div>
+                      53
+                      <!-- </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 filter filter-box sort_fill">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="fw-bold">Activated Continental Charcoal</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its <br />layout. The point of using Lorem Ipsum
+                    </p>
+                    <div class="d-flex">
+                      <p class="pe-4">
+                        <i class="bi bi-person-fill"> </i>Jems Thomas
+                      </p>
+                      <p class="pe-4">
+                        <i class="bi bi-calendar-check pe-2"></i>21 Feb 2022
+                      </p>
+                      <p></p>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill pe-2"></i>
+                      </div>
+                      53
+                      <!-- </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 filter filter-box sort_fill">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="fw-bold">Hardwood Charcoal Pellets</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its<br />
+                      layout. The point of using Lorem Ipsum
+                    </p>
+                    <div class="d-flex">
+                      <p class="pe-4">
+                        <i class="bi bi-person-fill"> </i>Jems Thomas
+                      </p>
+                      <p class="pe-4">
+                        <i class="bi bi-calendar-check pe-2"></i>21 Feb 2022
+                      </p>
+                      <p></p>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill pe-2"></i>
+                      </div>
+                      53
+                      <!-- </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 filter filter-box sort_fill">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="fw-bold">Pallet Activated Carbon</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its <br />layout. The point of using Lorem Ipsum
+                    </p>
+                    <div class="d-flex">
+                      <p class="pe-4">
+                        <i class="bi bi-person-fill"> </i>Jems Thomas
+                      </p>
+                      <p class="pe-4">
+                        <i class="bi bi-calendar-check pe-2"></i>21 Feb 2022
+                      </p>
+                      <p></p>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill pe-2"></i>
+                      </div>
+                      53
+                      <!-- </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 filter filter-box sort_fill">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="fw-bold">Activated Continental Charcoal</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its<br />
+                      layout. The point of using Lorem Ipsum
+                    </p>
+                    <div class="d-flex">
+                      <p class="pe-4">
+                        <i class="bi bi-person-fill"> </i>Jems Thomas
+                      </p>
+                      <p class="pe-4">
+                        <i class="bi bi-calendar-check pe-2"></i>21 Feb 2022
+                      </p>
+                      <p></p>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill pe-2"></i>
+                      </div>
+                      53
+                      <!-- </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 filter filter-box sort_fill">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <h5 class="fw-bold">Hardwood Charcoal Pellets</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page when looking
+                      at its<br />
+                      layout. The point of using Lorem Ipsum
+                    </p>
+                    <div class="d-flex">
+                      <p class="pe-4">
+                        <i class="bi bi-person-fill"> </i>Jems Thomas
+                      </p>
+                      <p class="pe-4">
+                        <i class="bi bi-calendar-check pe-2"></i>21 Feb 2022
+                      </p>
+                      <p></p>
+                      <div class="star-rating">
+                        <i class="bi bi-star-fill pe-2"></i>
+                      </div>
+                      53
+                      <!-- </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-transaction"
+        role="tabpanel"
+        aria-labelledby="pills-transaction-tab"
+      >
+        <div class="row">
+          <div class="col-md-2 mt-4">
+            <div class="">
+              <div class="filter_sell">
+                <p class="fw-bold">All Ratings</p>
+                <div class="mb-3">
+                  <mat-form-field appearance="outline" style="width: 150px">
+                    <input
+                      matInput
+                      [matDatepicker]="picker"
+                      placeholder="Enter Date"
+                    />
+
+                    <mat-datepicker-toggle
+                      matSuffix
+                      [for]="picker"
+                    ></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                  </mat-form-field>
+                  <div class="my-2 apply_rat">
+                    <a href="" class="text-white">Apply</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="col-md-12 filter filter-box Restaurant">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <div class=""><img src="assets/img/filtertwo.png" /></div>
+                      <div class="trans_text">
+                        <p>ID 45123</p>
+                        <h6 class="fw-bold">Pallet Activated Carbon</h6>
+                        <p>22 Feb 2022</p>
+                      </div>
+                    </div>
+                    <div class="trans_text1">
+                      <a class="bg-light.bg-gradient rounded-pill">Completed</a>
+                    </div>
+                    <div class="trans_text1 fw-bold">$300</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 filter filter-box Restaurant">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <div class=""><img src="assets/img/filtertwo.png" /></div>
+                      <div class="trans_text">
+                        <p>ID 45123</p>
+                        <h6 class="fw-bold">Pallet Activated Carbon</h6>
+                        <p>22 Feb 2022</p>
+                      </div>
+                    </div>
+                    <div class="trans_text1">
+                      <a class="bg-light.bg-gradient rounded-pill">Completed</a>
+                    </div>
+                    <div class="trans_text1 fw-bold">$300</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 filter filter-box Restaurant">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <div class=""><img src="assets/img/filtertwo.png" /></div>
+                      <div class="trans_text">
+                        <p>ID 45123</p>
+                        <h6 class="fw-bold">Pallet Activated Carbon</h6>
+                        <p>22 Feb 2022</p>
+                      </div>
+                    </div>
+                    <div class="trans_text1">
+                      <a class="bg-light.bg-gradient rounded-pill">Completed</a>
+                    </div>
+                    <div class="trans_text1 fw-bold">$300</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 filter filter-box Restaurant">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <div class=""><img src="assets/img/filtertwo.png" /></div>
+                      <div class="trans_text">
+                        <p>ID 45123</p>
+                        <h6 class="fw-bold">Pallet Activated Carbon</h6>
+                        <p>22 Feb 2022</p>
+                      </div>
+                    </div>
+                    <div class="trans_text1">
+                      <a class="bg-light.bg-gradient rounded-pill">Completed</a>
+                    </div>
+                    <div class="trans_text1 fw-bold">$300</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 filter filter-box Restaurant">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <div class=""><img src="assets/img/filtertwo.png" /></div>
+                      <div class="trans_text">
+                        <p>ID 45123</p>
+                        <h6 class="fw-bold">Pallet Activated Carbon</h6>
+                        <p>22 Feb 2022</p>
+                      </div>
+                    </div>
+                    <div class="trans_text1">
+                      <a class="bg-light.bg-gradient rounded-pill">Completed</a>
+                    </div>
+                    <div class="trans_text1 fw-bold">$300</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 filter filter-box Restaurant">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                      <div class=""><img src="assets/img/filtertwo.png" /></div>
+                      <div class="trans_text">
+                        <p>ID 45123</p>
+                        <h6 class="fw-bold">Pallet Activated Carbon</h6>
+                        <p>22 Feb 2022</p>
+                      </div>
+                    </div>
+                    <div class="trans_text1">
+                      <a class="bg-light.bg-gradient rounded-pill">Completed</a>
+                    </div>
+                    <div class="trans_text1 fw-bold">$300</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container footer_btn">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>CharcoalNet</h3>
+            <p>
+              CharcoalNet is the largest B2B online market place trading
+              sustainably harvested encroacher bush Lump Charcoal for Barbecue
+              and restaurant Charcoal, Charcoal Fines and Briquettes, both FSC
+              and Non-FSC.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a [routerLink]="['/index']">Home</a></li>
+            <li><a [routerLink]="['/about']">About us</a></li>
+            <li><a [routerLink]="['/contact']">Contact Us</a></li>
+            <li><a [routerLink]="['/faq']">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Helpfull Links</h4>
+          <ul>
+            <li><a [routerLink]="['/term']">Terms of Use</a></li>
+            <li><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+            <li><a [routerLink]="['/policy']">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 foot_social">
+          <h4>Social Connect</h4>
+          <div class="mt-3">
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/facebook.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/twitter.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/linkdin.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/whatsapp.png"
+            /></a>
+          </div>
+          <div class="mt-3">
+            <h4>Payment Method</h4>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment1.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment2.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment3.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment4.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment5.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment6.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="container-fluid footer_botm">
+  <div class="copyright">&copy; Copyright 2022, Inc All Rights Reserved</div>
+  <div class="credits"></div>
+</div>
+
+<!-- Browse Charcoal Products and Firewood end -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i
+></a>

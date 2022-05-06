@@ -1,0 +1,715 @@
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-flex align-items-center fixed-top">
+  <div
+    class="container d-flex align-items-center justify-content-end justify-content-md-end"
+  >
+    <div class="d-flex align-items-center me-2">
+      <i class="bi bi-headphones"></i> Customer Support
+    </div>
+    <div class="d-flex align-items-center"><i class="bi bi-globe"></i> ENG</div>
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <a [routerLink]="['/index']" class="logo me-auto"
+      ><img src="assets/img/logo.png" alt=""
+    /></a>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" [routerLink]="['/index']">Home</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/buy']">buy</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/sell']">sell</a></li>
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/transport']"
+            >Transport</a
+          >
+        </li>
+        <li><a class="nav-link scrollto" [routerLink]="['']">About Us</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/faq']">FAQ</a></li>
+
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/contact']">Contact</a>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!-- .navbar -->
+    <a [routerLink]="['/login']" class="login-btn scrollto">log in</a>
+    <a [routerLink]="['/register']" class="appointment-btn scrollto"
+      >Register</a
+    >
+  </div>
+</header>
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section class="general-service-section">
+  <div class="general-service-section-title text-center">
+    <h3 class="fw-bolder">A sanctum for Charcoal bargain hunters</h3>
+    <p>An oasis for restaurateurs and avid foodies.</p>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!-- Browse Charcoal Products and Firewood start -->
+<div class="d-flex flex-row justify-content-center">
+  <div class="bread-crums-main">
+    <a [routerLink]="['/index']" class="active">home</a>
+    <a [routerLink]="['/details']">Detail</a>
+  </div>
+</div>
+<section class="action-deal mt-5">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-12 filter filter-box Restaurant det_box">
+        <div class="card mb-3 p-3 live-auction1">
+          <div class="d-flex flex-row">
+            <div class="card-body">
+              <div class="row">
+                <div class="d-flex flex-row justify-content-between">
+                  <div
+                    class="d-flex flex-row justify-content-between flex-grow-1"
+                  >
+                    <div class="">
+                      <a href="#" class="action-title">restaurant charcoal</a>
+                      <p class="fw-bold mt-4">
+                        Blessed are those who are favored by the Chef.
+                      </p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between">
+                      <div class="d-flex mr-auto">
+                        <img src="assets/img/detailorder.svg" />
+                        <div class="det_str mx-4">
+                          <a href="" class="fw-bold">Curent Bid</a>
+                          <p>$876.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <div class="">
+                      <h6 class="live-time1">0d : 5h : 24m : 1s</h6>
+                      <div>
+                        <a href="#appointment" class="green-btn_detl"
+                          ><span class="d-none d-md-inline">Bid Now</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 filter filter-box Restaurant">
+        <div class="card1 detl_bg mb-3 p-3">
+          <!-- <div class="d-flex flex-row">
+                <img src="assets/img/charcoal-1.png" class="img-fluid rounded main-image" alt="...">
+              </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mb-4 p-0 col-md-9">
+        <div class="d-flex mr-auto list_no">
+          <h6 class="me-4 fs-6">
+            <span class="fw-bold">Listing ID</span> : 14076242
+          </h6>
+          <h6 class="me-4 fs-6">
+            <span class="fw-bold">Seller ID </span>: 34543
+          </h6>
+          <h6 class="me-4 fs-6">
+            <span class="fw-bold">Lot Number</span> : 250
+          </h6>
+        </div>
+        <ul class="nav nav-pills my-4 mx-2" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-descrip-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-descrip"
+              type="button"
+              role="tab"
+              aria-controls="pills-descrip"
+              aria-selected="true"
+            >
+              Description
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-packing-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-packing"
+              type="button"
+              role="tab"
+              aria-controls="pills-packing"
+              aria-selected="false"
+            >
+              Packaging
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-delivery-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-delivery"
+              type="button"
+              role="tab"
+              aria-controls="pills-delivery"
+              aria-selected="false"
+            >
+              Delivery
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-bid-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-bid"
+              type="button"
+              role="tab"
+              aria-controls="pills-bid"
+              aria-selected="true"
+            >
+              Bid History
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-results-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-results"
+              type="button"
+              role="tab"
+              aria-controls="pills-results"
+              aria-selected="false"
+            >
+              Test Results
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pill-sale-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-sale"
+              type="button"
+              role="tab"
+              aria-controls="pills-sale"
+              aria-selected="false"
+            >
+              Test of Sale
+            </button>
+          </li>
+        </ul>
+        <!-- tab1 -->
+        <div class="tab-content tab_cont_txt" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active ms-2"
+            id="pills-descrip"
+            role="tabpanel"
+            aria-labelledby="pills-descrip-tab"
+          >
+            <div class="mt-4">
+              <p>Hand picked premium selection of lump size ≥ 60mm diameter.</p>
+              <p>
+                Packed in 10, 15, 20 & 25kg bags ready-to-market. Ideal for
+                grills and pizzerias.
+              </p>
+              <p><span class="fw-bold">Production Date </span>: 18 Feb 2022</p>
+              <p><span class="fw-bold">Production Method</span> : Manual</p>
+              <p><span class="fw-bold">Country of Origin</span> : Mexico</p>
+              <p><span class="fw-bold">District </span>: Colima</p>
+              <p><span class="fw-bold">Encroacher Bush Type</span> : N/A</p>
+              <p>
+                <span class="fw-bold">Harvesting & Marketing Permit</span> : Yes
+              </p>
+              <p><span class="fw-bold">Certification</span> : FSC</p>
+              <p class="fw-bold">Screened and Packaged by CharcoalNet</p>
+            </div>
+          </div>
+
+          <!-- tab 2 -------------------->
+          <div
+            class="tab-pane fade ms-2"
+            id="pills-packing"
+            role="tabpanel"
+            aria-labelledby="pills-packing-tab"
+          >
+            <div class="mt-4 filter filter-box Barbecue">
+              <div class="d-flex mr-auto">
+                <img
+                  src="./../../../assets/img/Path 1293.svg"
+                  class="mb-4 pe-2"
+                />
+                <p>
+                  Packed in standard 25kg new export quality polypropylene woven
+                  bags.
+                </p>
+              </div>
+              <div class="d-flex mr-auto">
+                <img
+                  src="./../../../assets/img/Path 1293.svg"
+                  class="mb-4 pe-2"
+                />
+                <p>
+                  Can be re-packed in custom made paper or pp woven bags for
+                  export
+                </p>
+              </div>
+              <div class="d-flex mr-auto">
+                <img
+                  src="./../../../assets/img/Path 1293.svg"
+                  class="mb-4 pe-2"
+                />
+                <p>Request Custom Packaging Click here</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 3------------------------ -->
+          <div
+            class="tab-pane fade ms-2"
+            id="pills-delivery"
+            role="tabpanel"
+            aria-labelledby="pills-delivery-tab"
+          >
+            <div class="mt-4 filter filter-box Fines">
+              <div class="d-flex mr-auto">
+                <img
+                  src="./../../../assets/img/Path 1293.svg"
+                  class="mb-4 pe-2"
+                />
+                <p>
+                  Available for Collection ex-Charcoal Net Warehouse, Plot # 59,
+                  Okahandja, Namibia.
+                </p>
+              </div>
+              <div class="d-flex mr-auto">
+                <img
+                  src="./../../../assets/img/Path 1293.svg"
+                  class="mb-4 pe-2"
+                />
+                <p>
+                  Delivery - Can be delivered DAP or shipped /FOB/CIF/CFR
+                  worldwide Request Quote
+                </p>
+              </div>
+              <div class="d-flex mr-auto">
+                <img
+                  src="./../../../assets/img/Path 1293.svg"
+                  class="mb-4 pe-2"
+                />
+                <p>Delivery / Shipping charges on Buyer's account.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 4----------------------- -->
+          <div
+            class="tab-pane fade ms-2"
+            id="pills-bid"
+            role="tabpanel"
+            aria-labelledby="pills-bid-tab"
+          >
+            <div class="col-md-10">
+              <div class="bid_hist d-flex mr-auto justify-content-between mb-2">
+                <div class="py-2 px-4">
+                  <p class="">
+                    <span class="fw-bold">Bidder from</span>: : New York
+                  </p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Country</span> : America
+                  </p>
+                </div>
+                <div class="py-2 px-4">
+                  <p><span class="fw-bold">Date </span>: 18 Feb 2022</p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Time </span>: 05 : 30 PM
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="my-2">
+                    <img
+                      src="assets/img/detailorder.svg"
+                      width="30"
+                      class="my-2 mx-2"
+                    />
+                  </div>
+                  <div class="py-2 px-4">
+                    <p>Bid Price</p>
+                    <p class="mb-0">$ 876.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bid_hist d-flex mr-auto justify-content-between mb-2">
+                <div class="py-2 px-4">
+                  <p class="">
+                    <span class="fw-bold">Bidder from</span>: : New York
+                  </p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Country</span> : America
+                  </p>
+                </div>
+                <div class="py-2 px-4">
+                  <p><span class="fw-bold">Date </span>: 18 Feb 2022</p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Time </span>: 05 : 30 PM
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="my-2">
+                    <img
+                      src="assets/img/detailorder.svg"
+                      width="30"
+                      class="my-2 mx-2"
+                    />
+                  </div>
+                  <div class="py-2 px-4">
+                    <p>Bid Price</p>
+                    <p class="mb-0">$ 876.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bid_hist d-flex mr-auto justify-content-between mb-2">
+                <div class="py-2 px-4">
+                  <p class="">
+                    <span class="fw-bold">Bidder from</span>: : New York
+                  </p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Country</span> : America
+                  </p>
+                </div>
+                <div class="py-2 px-4">
+                  <p><span class="fw-bold">Date </span>: 18 Feb 2022</p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Time </span>: 05 : 30 PM
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="my-2">
+                    <img
+                      src="assets/img/detailorder.svg"
+                      width="30"
+                      class="my-2 mx-2"
+                    />
+                  </div>
+                  <div class="py-2 px-4">
+                    <p>Bid Price</p>
+                    <p class="mb-0">$ 876.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bid_hist d-flex mr-auto justify-content-between mb-2">
+                <div class="py-2 px-4">
+                  <p class="">
+                    <span class="fw-bold">Bidder from</span>: : New York
+                  </p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Country</span> : America
+                  </p>
+                </div>
+                <div class="py-2 px-4">
+                  <p><span class="fw-bold">Date </span>: 18 Feb 2022</p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Time </span>: 05 : 30 PM
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="my-2">
+                    <img
+                      src="assets/img/detailorder.svg"
+                      width="30"
+                      class="my-2 mx-2"
+                    />
+                  </div>
+                  <div class="py-2 px-4">
+                    <p>Bid Price</p>
+                    <p class="mb-0">$ 876.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="bid_hist d-flex mr-auto justify-content-between mb-2">
+                <div class="py-2 px-4">
+                  <p class="">
+                    <span class="fw-bold">Bidder from</span>: : New York
+                  </p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Country</span> : America
+                  </p>
+                </div>
+                <div class="py-2 px-4">
+                  <p><span class="fw-bold">Date </span>: 18 Feb 2022</p>
+                  <p class="mb-0">
+                    <span class="fw-bold">Time </span>: 05 : 30 PM
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <div class="my-2">
+                    <img
+                      src="assets/img/detailorder.svg"
+                      width="30"
+                      class="my-2 mx-2"
+                    />
+                  </div>
+                  <div class="py-2 px-4">
+                    <p>Bid Price</p>
+                    <p class="mb-0">$ 876.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- tab 5 -------------------------------->
+          <div
+            class="tab-pane fade"
+            id="pills-results"
+            role="tabpanel"
+            aria-labelledby="pills-results-tab"
+          >
+            <div class="mt-4 filter filter-box Restaurant">
+              <p><span class="fw-bold">Fixed Carbon</span>: 20%</p>
+              <p><span class="fw-bold">Moisture Content</span> : 10%</p>
+              <p><span class="fw-bold">Ash Content</span> : 10%</p>
+              <p><span class="fw-bold">Volatile Matter</span>: 20%</p>
+              <p>
+                <span class="fw-bold">Self-Heating Test</span> : To be issued
+              </p>
+              <p>
+                <span class="fw-bold">Weathering Certificate</span> : To be
+                issued
+              </p>
+            </div>
+          </div>
+          <!-- tab 6-------------------------- -->
+          <div
+            class="tab-pane fade"
+            id="pills-sale"
+            role="tabpanel"
+            aria-labelledby="pills-sale-tab"
+          >
+            By bidding on any item on
+            <a href="#" style="color: #00b050">charcoalnet.com</a>, you
+            expressly agree that the use of the platform and the services is at
+            your own risk and subject to the user agreement. The platform, the
+            services and any goods or services purchased or obtained through
+            this platform, the services or any transactions entered into through
+            this platform or services are provided on an “as is as available”
+            basis. CharcoalNet disclaims, on its own behalf and, when acting as
+            an agent, on behalf of its principal, all warranties of any kind,
+            whether expressed or implied, and specifically disclaims any implied
+            warranties of fitness for a particular purpose. No advice, opinions
+            or information, be it oral or written, obtained from CharcoalNet or
+            through the platform or services shall create basis of any warranty.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="pr_detl">
+          <div class="d-flex justify-content-between">
+            <p class="">Lot Size:</p>
+            <p>30 MT</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Fixed Carbon :</p>
+            <p>75%</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Highest Bid :</p>
+            <p>$500</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Min Bid per MT :</p>
+            <p>$500</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Total Bids :</p>
+            <p>100</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Bid Increment :</p>
+            <p>$0.9</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Watching :</p>
+            <p>152</p>
+          </div>
+          <div class="green-btn_add mb-2">
+            <a href="#appointment" class=" "
+              ><span class="d-none d-md-inline">Add to Watch List</span></a
+            >
+          </div>
+          <div class="d-flex mb-2">
+            <div class="green-btn_add2">
+              <a href="/" class=" "
+                ><span class="d-none d-md-inline"></span>Add Proxy Bid</a
+              >
+            </div>
+            <div class="green-btn_add2 ms-2">
+              <a href="/" class=""
+                ><span class="d-none d-md-inline"></span>
+                <img src="assets/img/add-to-cart.svg" width="20"
+              /></a>
+            </div>
+          </div>
+          <div class="green-btn_det3">
+            <a href="#appointment" class=""
+              ><span class="d-none d-md-inline">Bid Now</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-7 filter filter-box Restaurant">
+        <div class="card1 mb-3 p-3 live-auction1">
+          <div class="mb-4" style="margin: 0px 56px; color: #00b050">
+            <a href="" class="me-2">Current Bid</a>
+            <a href="" class="round_btn">Current Bid amount $300</a>
+          </div>
+          <div class="row">
+            <div class="col-md-1">
+              <img src="assets/img/ordersub.svg" width="30" />
+            </div>
+            <div class="col-md-8">
+              <form class="">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </form>
+            </div>
+            <div class="col-md-3">
+              <a href="#appointment" class="green-btn_det2"
+                ><span class="d-none d-md-inline"> Submit A Bid</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <p style="color: #00b050">share to</p>
+        <a [routerLink]="['/social']" class="m-2"
+          ><img src="/assets/img/simple-facebook.svg"
+        /></a>
+        <a [routerLink]="['/social']" class="m-2"
+          ><img src="/assets/img/simple-instagram.svg"
+        /></a>
+        <a [routerLink]="['/social']" class="m-2"
+          ><img src="/assets/img/simple-twitter.svg"
+        /></a>
+        <a [routerLink]="['/social']" class="m-2"
+          ><img src="/assets/img/simple-linkedin.svg"
+        /></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- cards of buyer product -->
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container footer_btn">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>CharcoalNet</h3>
+            <p>
+              CharcoalNet is the largest B2B online market place trading
+              sustainably harvested encroacher bush Lump Charcoal for Barbecue
+              and restaurant Charcoal, Charcoal Fines and Briquettes, both FSC
+              and Non-FSC.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a [routerLink]="['/index']">Home</a></li>
+            <li><a [routerLink]="['/about']">About us</a></li>
+            <li><a [routerLink]="['/contact']">Contact Us</a></li>
+            <li><a [routerLink]="['/faq']">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Helpfull Links</h4>
+          <ul>
+            <li><a [routerLink]="['/term']">Terms of Use</a></li>
+            <li><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+            <li><a [routerLink]="['/policy']">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 foot_social">
+          <h4>Social Connect</h4>
+          <div class="mt-3">
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/facebook.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/twitter.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/linkdin.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/whatsapp.png"
+            /></a>
+          </div>
+          <div class="mt-3">
+            <h4>Payment Method</h4>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment1.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment2.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment3.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment4.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment5.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment6.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="container-fluid footer_botm">
+  <div class="copyright">&copy; Copyright 2022, Inc All Rights Reserved</div>
+  <div class="credits"></div>
+</div>
+
+<!-- Browse Charcoal Products and Firewood end -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i
+></a>
+
+<!-- Vendor JS Files -->

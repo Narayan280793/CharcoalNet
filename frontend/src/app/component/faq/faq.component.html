@@ -1,0 +1,368 @@
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-flex align-items-center fixed-top">
+  <div
+    class="container d-flex align-items-center justify-content-end justify-content-md-end"
+  >
+    <div class="d-flex align-items-center me-2">
+      <i class="bi bi-headphones"></i> Customer Support
+    </div>
+    <div class="d-flex align-items-center"><i class="bi bi-globe"></i> ENG</div>
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <a [routerLink]="['/index']" class="logo me-auto"
+      ><img src="assets/img/logo.png" alt=""
+    /></a>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" [routerLink]="['/index']">Home</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/buy']">buy</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/sell']">sell</a></li>
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/transport']"
+            >Transport</a
+          >
+        </li>
+        <li><a class="nav-link scrollto" [routerLink]="['']">About Us</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/faq']">FAQ</a></li>
+
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/contact']">Contact</a>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!-- .navbar -->
+    <a [routerLink]="['/login']" class="login-btn scrollto">log in</a>
+    <a [routerLink]="['/register']" class="appointment-btn scrollto"
+      >Register</a
+    >
+  </div>
+</header>
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section class="general-service-section">
+  <div class="general-service-section-title text-center">
+    <h1 class="fw-bolder">A sanctum for Charcoal bargain hunters</h1>
+    <h5>An oasis for restaurateurs and avid foodies.</h5>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!-- Browse Charcoal Products and Firewood start -->
+<div class="d-flex flex-row justify-content-center">
+  <div class="bread-crums-main">
+    <a [routerLink]="['/index']" class="active">home</a>
+    <a [routerLink]="['/faq']">Faq</a>
+  </div>
+</div>
+<section class="mt-5">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-12">
+        <div class="title-block-general text-center">
+          <h3 class="fw-bolder">
+            <span class="text-green">Frequently </span> Ask Questions
+          </h3>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-5">
+          <div class="col-md-9 our-faq">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What can i buy CharcoalNet?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever Lorem Ipsum is simply dummy text
+                      of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    What Value added Services do i get when buying on
+                    CharcoalNet?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever Lorem Ipsum is simply dummy text
+                      of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    What can i sell on CharcoalNet?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever Lorem Ipsum is simply dummy text
+                      of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Why should I sell on CharcoalNet?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever Lorem Ipsum is simply dummy text
+                      of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    As a Buyer, how am I protected when purchasing on
+                    CharcoalNet?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever Lorem Ipsum is simply dummy text
+                      of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    As a Seller how am I Protected on CharcoalNet?
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever Lorem Ipsum is simply dummy text
+                      of the printing and typesetting industry.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Support Button-->
+            <div
+              class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp"
+              data-wow-delay="0.5s"
+              style="
+                visibility: visible;
+                animation-delay: 0.5s;
+                animation-name: fadeInUp;
+              "
+            >
+              <i class="lni-emoji-sad"></i>
+              <p class="mb-0 px-2">Was this answer helpful?</p>
+              <div class="text-green">
+                <span>Yes</span><span>&nbsp;|&nbsp;</span> <span>No</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>CharcoalNet</h3>
+            <p>
+              CharcoalNet is the largest B2B online market place trading
+              sustainably harvested encroacher bush Lump Charcoal for Barbecue
+              and restaurant Charcoal, Charcoal Fines and Briquettes, both FSC
+              and Non-FSC.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a [routerLink]="['/index']">Home</a></li>
+            <li><a [routerLink]="['']">About us</a></li>
+            <li><a [routerLink]="['/contact']">Contact Us</a></li>
+            <li><a [routerLink]="['/faq']">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Helpfull Links</h4>
+          <ul>
+            <li><a [routerLink]="['/term']">Terms of Use</a></li>
+            <li><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+            <li><a [routerLink]="['/policy']">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 foot_social">
+          <h4>Social Connect</h4>
+          <div class="mt-3">
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/facebook.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/twitter.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/linkdin.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/whatsapp.png"
+            /></a>
+          </div>
+          <div class="mt-3">
+            <h4>Payment Method</h4>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment1.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment2.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment3.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment4.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment5.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment6.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="container-fluid footer_botm">
+  <div class="copyright">&copy; Copyright 2022, Inc All Rights Reserved</div>
+  <div class="credits"></div>
+</div>
+
+<!-- Browse Charcoal Products and Firewood end -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i
+></a>

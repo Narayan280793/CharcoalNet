@@ -1,0 +1,1099 @@
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-flex align-items-center fixed-top">
+  <div
+    class="container d-flex align-items-center justify-content-end justify-content-md-end"
+  >
+    <div class="d-flex align-items-center me-2">
+      <i class="bi bi-headphones"></i> Customer Support
+    </div>
+    <div class="d-flex align-items-center"><i class="bi bi-globe"></i> ENG</div>
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <a [routerLink]="['/index']" class="logo me-auto"
+      ><img src="assets/img/logo.png" alt=""
+    /></a>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" [routerLink]="['/index']">Home</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/buy']">buy</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/sell']">sell</a></li>
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/transport']"
+            >Transport</a
+          >
+        </li>
+        <li><a class="nav-link scrollto" [routerLink]="['']">About Us</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/faq']">FAQ</a></li>
+
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/contact']">Contact</a>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!-- .navbar -->
+    <a [routerLink]="['/login']" class="login-btn scrollto">log in</a>
+    <a [routerLink]="['/register']" class="appointment-btn scrollto"
+      >Register</a
+    >
+  </div>
+</header>
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+  <div
+    id="heroCarousel"
+    data-bs-interval="5000"
+    class="carousel slide carousel-fade"
+    data-bs-ride="carousel"
+  >
+    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide 1 -->
+      <div class="carousel-item active hero-slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h2>
+                <span class="fw-normal">The best of both</span><br />
+                Charcoal worlds.
+              </h2>
+              <p>
+                Sell or Buy sustainably harvested Charcoal, Briquettes and
+                Firewood on the most rewarding, comprehensive and secure
+                real-time platform where Producers earn more and Buyers pay less
+                for quality assured, certified, screened and laboratory tested
+                Charcoal, packaged with 100% precision.
+              </p>
+              <a [routerLink]="['/about']" class="btn-get-started scrollto"
+                >Get Started</a
+              >
+            </div>
+            <div class="col-md-7">
+              <a href="#"
+                ><img src="assets/img/bid-now.png" alt="" class="bid-now-btn"
+              /></a>
+              <img
+                src="assets/img/hero-charcoal.png"
+                alt=""
+                class="hero-charcoal"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item hero-slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h2>
+                <span class="fw-normal">2The best of both</span><br />
+                Charcoal worlds.
+              </h2>
+              <p>
+                Sell or Buy sustainably harvested Charcoal, Briquettes and
+                Firewood on the most rewarding, comprehensive and secure
+                real-time platform where Producers earn more and Buyers pay less
+                for quality assured, certified, screened and laboratory tested
+                Charcoal, packaged with 100% precision.
+              </p>
+              <a [routerLink]="['/about']" class="btn-get-started scrollto"
+                >Get Started</a
+              >
+            </div>
+            <div class="col-md-7">
+              <a href="#"
+                ><img src="assets/img/bid-now.png" alt="" class="bid-now-btn"
+              /></a>
+              <img
+                src="assets/img/hero-charcoal.png"
+                alt=""
+                class="hero-charcoal"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item hero-slide">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h2>
+                <span class="fw-normal">3The best of both</span><br />
+                Charcoal worlds.
+              </h2>
+              <p>
+                Sell or Buy sustainably harvested Charcoal, Briquettes and
+                Firewood on the most rewarding, comprehensive and secure
+                real-time platform where Producers earn more and Buyers pay less
+                for quality assured, certified, screened and laboratory tested
+                Charcoal, packaged with 100% precision.
+              </p>
+              <a [routerLink]="['/about']" class="btn-get-started scrollto"
+                >Get Started</a
+              >
+            </div>
+            <div class="col-md-7">
+              <a href="#"
+                ><img src="assets/img/bid-now.png" alt="" class="bid-now-btn"
+              /></a>
+              <img
+                src="assets/img/hero-charcoal.png"
+                alt=""
+                class="hero-charcoal"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column">
+      <a
+        class="carousel-control-prev"
+        href="#heroCarousel"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bi bi-chevron-left"
+          aria-hidden="true"
+        ></span>
+      </a>
+
+      <a
+        class="carousel-control-next"
+        href="#heroCarousel"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bi bi-chevron-right"
+          aria-hidden="true"
+        ></span>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!-- HOT LIVE CHARCOAL AUCTION DEAL START -->
+
+<section class="action-deal">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-8">
+        <div class="title-block">
+          <h1 class="fw-bolder">
+            <span class="text-green">Hot Live Charcoal</span> <br />Auction
+            Deals
+          </h1>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-between">
+        <div class="stock-block">
+          <h3 class="text-green">250+MT</h3>
+          <p>Charcoal in stock</p>
+        </div>
+        <div class="stock-block">
+          <h3 class="text-green">408MT+</h3>
+          <p>Sold in the past 14 days</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="filter-row p-0">
+        <button class="btn btn-default filter-button" data-filter="all">
+          All
+        </button>
+        <button class="btn btn-default filter-button" data-filter="Restaurant">
+          Restaurant Charcoal
+        </button>
+        <button class="btn btn-default filter-button" data-filter="Barbecue">
+          Barbecue Charcoal
+        </button>
+        <button class="btn btn-default filter-button" data-filter="Fines">
+          Charcoal Fines
+        </button>
+        <button class="btn btn-default filter-button" data-filter="Shisha">
+          Shisha Charcoal
+        </button>
+        <button class="btn btn-default filter-button" data-filter="Briquettes">
+          Briquettes
+        </button>
+        <button class="btn btn-default filter-button" data-filter="Firewood">
+          Firewood
+        </button>
+      </div>
+
+      <div class="col-md-12 filter filter-box Restaurant">
+        <div class="card mb-3 p-3">
+          <div class="d-flex flex-row">
+            <img
+              src="assets/img/charcoal-1.png"
+              class="img-fluid rounded main-image"
+              alt="..."
+            />
+
+            <div class="card-body">
+              <div class="row">
+                <div class="d-flex flex-row justify-content-between">
+                  <div
+                    class="d-flex flex-row justify-content-between flex-grow-1"
+                  >
+                    <div class="d-flex flex-column">
+                      <p class="action-title">restaurant charcoal</p>
+                      <p><span class="fw-bolder">listing id</span> : 12345</p>
+                      <p>
+                        <span class="fw-bolder me-5">Seller id</span>
+                        <i class="bi bi-eye"></i>
+                      </p>
+                      <p><span class="fw-bolder">lot size </span>: 30MT</p>
+                      <p><span class="fw-bolder">Fixed Carbon </span>: 75%</p>
+                      <p><span class="fw-bolder">Lot Number </span>: 250</p>
+                      <p><span class="fw-bolder"></span></p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between">
+                      <div class="star-rating">
+                        <p>producer rating</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="text-dark">(4.0)</span>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <p><span class="fw-bolder">TONS </span>: 02</p>
+                        <p><span class="fw-bolder">watching </span>: 34543</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <div class="live-auction p-3 rounded">
+                      <h6 class="live-time">0d : 5h : 24m : 1s</h6>
+                      <p>
+                        <span class="fw-bolder">Highest Bid : </span>$500.00
+                      </p>
+                      <p><span class="fw-bolder">Total Bids : </span>100</p>
+                      <p><span class="fw-bolder">Bid Increment : </span>$0.9</p>
+                      <div
+                        style="
+                          border-top: 1px dotted #00b050;
+                          padding-top: 10px;
+                        "
+                      >
+                        <a [routerLink]="['/register']" class="green-btn"
+                          ><span class="d-none d-md-inline">Register</span></a
+                        >
+                        <a [routerLink]="['/details']"
+                          >more <i class="bi bi-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 filter filter-box Restaurant">
+        <div class="card mb-3 p-3">
+          <div class="d-flex flex-row">
+            <img
+              src="assets/img/charcoal-1.png"
+              class="img-fluid rounded main-image"
+              alt="..."
+            />
+
+            <div class="card-body">
+              <div class="row">
+                <div class="d-flex flex-row justify-content-between">
+                  <div
+                    class="d-flex flex-row justify-content-between flex-grow-1"
+                  >
+                    <div class="d-flex flex-column">
+                      <p class="action-title">restaurant charcoal</p>
+                      <p><span class="fw-bolder">listing id</span> : 12345</p>
+                      <p>
+                        <span class="fw-bolder me-5">Seller id</span>
+                        <i class="bi bi-eye"></i>
+                      </p>
+                      <p><span class="fw-bolder">lot size </span>: 30MT</p>
+                      <p><span class="fw-bolder">Fixed Carbon </span>: 75%</p>
+                      <p><span class="fw-bolder">Lot Number </span>: 250</p>
+                      <p><span class="fw-bolder"></span></p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between">
+                      <div class="star-rating">
+                        <p>producer rating</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="text-dark">(4.0)</span>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <p><span class="fw-bolder">TONS </span>: 02</p>
+                        <p><span class="fw-bolder">watching </span>: 34543</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <div class="live-auction p-3 rounded">
+                      <h6 class="live-time">0d : 5h : 24m : 1s</h6>
+                      <p>
+                        <span class="fw-bolder">Highest Bid : </span>$500.00
+                      </p>
+                      <p><span class="fw-bolder">Total Bids : </span>100</p>
+                      <p><span class="fw-bolder">Bid Increment : </span>$0.9</p>
+                      <div
+                        style="
+                          border-top: 1px dotted #00b050;
+                          padding-top: 10px;
+                        "
+                      >
+                        <a [routerLink]="['/register']" class="green-btn"
+                          ><span class="d-none d-md-inline">Register</span></a
+                        >
+                        <a [routerLink]="['/details']"
+                          >more <i class="bi bi-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 filter filter-box Barbecue">
+        <div class="card mb-3 p-3">
+          <div class="d-flex flex-row">
+            <img
+              src="assets/img/charcoal-1.png"
+              class="img-fluid rounded main-image"
+              alt="..."
+            />
+
+            <div class="card-body">
+              <div class="row">
+                <div class="d-flex flex-row justify-content-between">
+                  <div
+                    class="d-flex flex-row justify-content-between flex-grow-1"
+                  >
+                    <div class="d-flex flex-column">
+                      <p class="action-title">Barbecue Charcoal</p>
+                      <p><span class="fw-bolder">listing id</span> : 12345</p>
+                      <p>
+                        <span class="fw-bolder me-5">Seller id</span>
+                        <i class="bi bi-eye"></i>
+                      </p>
+                      <p><span class="fw-bolder">lot size </span>: 30MT</p>
+                      <p><span class="fw-bolder">Fixed Carbon </span>: 75%</p>
+                      <p><span class="fw-bolder">Lot Number </span>: 250</p>
+                      <p><span class="fw-bolder"></span></p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between">
+                      <div class="star-rating">
+                        <p>producer rating</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="text-dark">(4.0)</span>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <p><span class="fw-bolder">TONS </span>: 02</p>
+                        <p><span class="fw-bolder">watching </span>: 34543</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <div class="live-auction p-3 rounded">
+                      <h6 class="live-time">0d : 5h : 24m : 1s</h6>
+                      <p>
+                        <span class="fw-bolder">Highest Bid : </span>$500.00
+                      </p>
+                      <p><span class="fw-bolder">Total Bids : </span>100</p>
+                      <p><span class="fw-bolder">Bid Increment : </span>$0.9</p>
+                      <div
+                        style="
+                          border-top: 1px dotted #00b050;
+                          padding-top: 10px;
+                        "
+                      >
+                        <a [routerLink]="['/register']" class="green-btn"
+                          ><span class="d-none d-md-inline">Register</span></a
+                        >
+                        <a [routerLink]="['/details']"
+                          >more <i class="bi bi-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 filter filter-box Fines">
+        <div class="card mb-3 p-3">
+          <div class="d-flex flex-row">
+            <img
+              src="assets/img/charcoal-1.png"
+              class="img-fluid rounded main-image"
+              alt="..."
+            />
+
+            <div class="card-body">
+              <div class="row">
+                <div class="d-flex flex-row justify-content-between">
+                  <div
+                    class="d-flex flex-row justify-content-between flex-grow-1"
+                  >
+                    <div class="d-flex flex-column">
+                      <p class="action-title">Charcoal Fines</p>
+                      <p><span class="fw-bolder">listing id</span> : 12345</p>
+                      <p>
+                        <span class="fw-bolder me-5">Seller id</span>
+                        <i class="bi bi-eye"></i>
+                      </p>
+                      <p><span class="fw-bolder">lot size </span>: 30MT</p>
+                      <p><span class="fw-bolder">Fixed Carbon </span>: 75%</p>
+                      <p><span class="fw-bolder">Lot Number </span>: 250</p>
+                      <p><span class="fw-bolder"></span></p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between">
+                      <div class="star-rating">
+                        <p>producer rating</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="text-dark">(4.0)</span>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <p><span class="fw-bolder">TONS </span>: 02</p>
+                        <p><span class="fw-bolder">watching </span>: 34543</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <div class="live-auction p-3 rounded">
+                      <h6 class="live-time">0d : 5h : 24m : 1s</h6>
+                      <p>
+                        <span class="fw-bolder">Highest Bid : </span>$500.00
+                      </p>
+                      <p><span class="fw-bolder">Total Bids : </span>100</p>
+                      <p><span class="fw-bolder">Bid Increment : </span>$0.9</p>
+                      <div
+                        style="
+                          border-top: 1px dotted #00b050;
+                          padding-top: 10px;
+                        "
+                      >
+                        <a [routerLink]="['/register']" class="green-btn"
+                          ><span class="d-none d-md-inline">Register</span></a
+                        >
+                        <a [routerLink]="['/details']"
+                          >more <i class="bi bi-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 filter filter-box Shisha">
+        <div class="card mb-3 p-3">
+          <div class="d-flex flex-row">
+            <img
+              src="assets/img/charcoal-1.png"
+              class="img-fluid rounded main-image"
+              alt="..."
+            />
+
+            <div class="card-body">
+              <div class="row">
+                <div class="d-flex flex-row justify-content-between">
+                  <div
+                    class="d-flex flex-row justify-content-between flex-grow-1"
+                  >
+                    <div class="d-flex flex-column">
+                      <p class="action-title">Shisha Charcoal</p>
+                      <p><span class="fw-bolder">listing id</span> : 12345</p>
+                      <p>
+                        <span class="fw-bolder me-5">Seller id</span>
+                        <i class="bi bi-eye"></i>
+                      </p>
+                      <p><span class="fw-bolder">lot size </span>: 30MT</p>
+                      <p><span class="fw-bolder">Fixed Carbon </span>: 75%</p>
+                      <p><span class="fw-bolder">Lot Number </span>: 250</p>
+                      <p><span class="fw-bolder"></span></p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-between">
+                      <div class="star-rating">
+                        <p>producer rating</p>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="text-dark">(4.0)</span>
+                      </div>
+                      <div class="d-flex flex-column">
+                        <p><span class="fw-bolder">TONS </span>: 02</p>
+                        <p><span class="fw-bolder">watching </span>: 34543</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column">
+                    <div class="live-auction p-3 rounded">
+                      <h6 class="live-time">0d : 5h : 24m : 1s</h6>
+                      <p>
+                        <span class="fw-bolder">Highest Bid : </span>$500.00
+                      </p>
+                      <p><span class="fw-bolder">Total Bids : </span>100</p>
+                      <p><span class="fw-bolder">Bid Increment : </span>$0.9</p>
+                      <div
+                        style="
+                          border-top: 1px dotted #00b050;
+                          padding-top: 10px;
+                        "
+                      >
+                        <a [routerLink]="['/register']" class="green-btn"
+                          ><span class="d-none d-md-inline">Register</span></a
+                        >
+                        <a [routerLink]="['/details']"
+                          >more <i class="bi bi-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOT LIVE CHARCOAL AUCTION DEAL END -->
+<!-- Browse Charcoal Products and Firewood start -->
+
+<section class="product-firewood">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md-12">
+        <div class="title-block-general text-center">
+          <h3 class="fw-bolder">
+            <span class="text-green">Browse Charcoal </span> Products and
+            Firewood
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
+      <div class="col product-firewood">
+        <div class="product-firewood-inner1">
+          <p>Restaurant Charcoal</p>
+          <div class="on-hover-product">
+            <h6 class="text-green">Restaurant Charcoal</h6>
+            <div class="d-flex align-items-end">
+              <h6>
+                Hand picked premium selection of lump size ≥ 60mm diameter.
+                Packed in 10, 15, 20 & 25kg bags ready-to-market. Ideal for
+                grills and pizzerias.
+              </h6>
+              <a href=""><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col product-firewood">
+        <div class="product-firewood-inner2">
+          <p>Barbecue Charcoal</p>
+          <div class="on-hover-product">
+            <h6 class="text-green">Restaurant Charcoal</h6>
+            <div class="d-flex align-items-end">
+              <h6>
+                Hand picked premium selection of lump size ≥ 60mm diameter.
+                Packed in 10, 15, 20 & 25kg bags ready-to-market. Ideal for
+                grills and pizzerias.
+              </h6>
+              <a href=""><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col product-firewood">
+        <div class="product-firewood-inner3">
+          <p>Charcoal Fines</p>
+          <div class="on-hover-product">
+            <h6 class="text-green">Restaurant Charcoal</h6>
+            <div class="d-flex align-items-end">
+              <h6>
+                Hand picked premium selection of lump size ≥ 60mm diameter.
+                Packed in 10, 15, 20 & 25kg bags ready-to-market. Ideal for
+                grills and pizzerias.
+              </h6>
+              <a href=""><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col product-firewood">
+        <div class="product-firewood-inner4">
+          <p>Shisha Charcoal</p>
+          <div class="on-hover-product">
+            <h6 class="text-green">Restaurant Charcoal</h6>
+            <div class="d-flex align-items-end">
+              <h6>
+                Hand picked premium selection of lump size ≥ 60mm diameter.
+                Packed in 10, 15, 20 & 25kg bags ready-to-market. Ideal for
+                grills and pizzerias.
+              </h6>
+              <a href=""><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col product-firewood">
+        <div class="product-firewood-inner5">
+          <p>Briquettes</p>
+          <div class="on-hover-product">
+            <h6 class="text-green">Restaurant Charcoal</h6>
+            <div class="d-flex align-items-end">
+              <h6>
+                Hand picked premium selection of lump size ≥ 60mm diameter.
+                Packed in 10, 15, 20 & 25kg bags ready-to-market. Ideal for
+                grills and pizzerias.
+              </h6>
+              <a href=""><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col product-firewood">
+        <div class="product-firewood-inner6">
+          <p>Firewood</p>
+          <div class="on-hover-product">
+            <h6 class="text-green">Restaurant Charcoal</h6>
+            <div class="d-flex align-items-end">
+              <h6>
+                Hand picked premium selection of lump size ≥ 60mm diameter.
+                Packed in 10, 15, 20 & 25kg bags ready-to-market. Ideal for
+                grills and pizzerias.
+              </h6>
+              <a href=""><i class="bi bi-arrow-right-circle"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="how_section">
+  <div class="container howwork">
+    <div class="how_img d-flex mr-auto justify-content-center">
+      <img src="assets/img/Group9.svg" />
+    </div>
+    <div class="d-flex mr-auto justify-content-center font-bold how_head">
+      <h4 class="fw-bold"><span>How It</span> Work</h4>
+    </div>
+    <div class="row justify-content-center how_dest">
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group5.svg" />
+          </div>
+          <div class="howhr_line">
+            <img src="assets/img/howhrline1.png" class="howsec_img1" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p class="one_t">1</p>
+        </div>
+        <h5>register</h5>
+        <p>
+          Registering as a Buyer is easy and FREE. Our Auctions are only
+          available to registered users. Information provided will be verified.
+          Click here to register.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group1.svg" />
+          </div>
+          <div class="howhr_line1">
+            <img src="assets/img/howhrline2.png" class="howsec_img" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>2</p>
+        </div>
+        <h5>Choose Product</h5>
+        <p>
+          Browse auction lots by clicking product categories: Restaurant
+          Charcoal, Barbecue Charcoal, Charcoal Fines, Shisha Charcoal,
+          Briquettes or Firewood.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group4.svg" />
+          </div>
+          <div class="howhr_line">
+            <img src="assets/img/howhrline1.png" class="howsec_img1" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>3</p>
+        </div>
+        <h5>Make bid</h5>
+        <p>
+          Bid on any auction by entering your bid amount above the minimum bid
+          in the "Bid Now" box. A valid credit card or payment source is
+          required to be on file in order to place a bid, as this is
+          automatically processed in the event you are the winner at the close
+          of the auction.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group7.svg" />
+          </div>
+          <div class="howhr_line1">
+            <img src="assets/img/howhrline2.png" class="howsec_img" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>4</p>
+        </div>
+        <h5>Pay Amount</h5>
+        <p>
+          If you are the successful bidder, a non-refundable 10% of the purchase
+          price is automatically processed at the close of the auction from your
+          payment source on file. The balance is to be paid via Wire
+          Transfer/EFT within 72hrs. We accept PayPal, Credit Card and Wire
+          Transfer.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <img src="assets/img/Group6.svg" />
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>5</p>
+        </div>
+        <h5>Get Product</h5>
+        <p>
+          Receive or Collect your goods, depending on delivery option you have
+          selected, subject to full settlement of all applicable and additional
+          charges.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- cards of buyer product -->
+<section class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card crd_byr">
+        <div class="crd_by1">
+          <div class="card-body py-4">
+            <h5 class="card-title">Buyers</h5>
+            <p class="card-text">
+              Buy securely and conveniently from a diverse collection of
+              sustainably harvested Namibian Charcoal.
+            </p>
+            <div class="byr_btn ms-4">
+              <a [routerLink]="['/login']" class="card-link byr_btn1">Log in</a>
+              <a [routerLink]="['/register']" class="card-link byr_btn2"
+                >Register for FREE</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card crd_prob">
+        <div class="crd_by1">
+          <div class="card-body py-4">
+            <h5 class="card-title" style="color: #00b050">Producers</h5>
+            <p class="card-text py-2">
+              Expose your Charcoal & Firewood to a global network of Agents,
+              Retail & Restaurant chains.
+            </p>
+            <div class="byr_btn ms-4 py-2">
+              <a
+                [routerLink]="['/login']"
+                class="card-link byr_btn1"
+                style="background-color: #00b050; color: #fff"
+                >Log in</a
+              >
+              <a [routerLink]="['/register']" class="card-link byr_btn1"
+                >Register for FREE</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card crd_byr">
+        <div class="crd_by1">
+          <div class="card-body py-4">
+            <h5 class="card-title" style="color: #00b050">Transporters</h5>
+            <p class="card-text py-2">
+              Sign up to receive lead alerts whenever we have a load to be
+              collected or delivered.
+            </p>
+            <div class="byr_btn ms-4 py-2">
+              <a
+                [routerLink]="['/login']"
+                class="card-link byr_btn1"
+                style="background-color: #00b050; color: #fff"
+                >Log in</a
+              >
+              <a [routerLink]="['/register']" class="card-link byr_btn1"
+                >Register for FREE</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--  charcoal testional  ------------------------------------------->
+<section id="testimonials" class="testimonials trusted_sec sec_test">
+  <div class="container" data-aos="fade-up">
+    <div class="how_img d-flex mr-auto justify-content-center">
+      <img src="assets/img/trustico.png" />
+    </div>
+    <div
+      class="d-flex mr-auto justify-content-center text-white font-bold how_head"
+    >
+      <h4 class="fw-bold">Trusted By</h4>
+    </div>
+
+    <div
+      class="testimonials-slider swiper mt-4"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <div class="swiper-wrapper">
+        <swiper [config]="config" [loop]="true">
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-1.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Tom Powell</h3>
+                <p>
+                  This was my first time, but it was exciting. I will try it
+                  again. Thank you so much.
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-2.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Tom Powell</h3>
+                <p>
+                  I can't stop bidding! It's a great way to spend some time and
+                  I want everything on Sbidu.
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-3.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Tom Powell</h3>
+                <p>
+                  This was my first time, but it was exciting. I will try it
+                  again. Thank you so much.
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-4.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Tom Powell</h3>
+                <p>
+                  This was my first time, but it was exciting. I will try it
+                  again. Thank you so much.
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </ng-template>
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-5.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+                <h3>Tom Powell</h3>
+                <p>
+                  I can't stop bidding! It's a great way to spend some time and
+                  I want everything on Sbidu.
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </ng-template>
+        </swiper>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container footer_btn">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>CharcoalNet</h3>
+            <p>
+              CharcoalNet is the largest B2B online market place trading
+              sustainably harvested encroacher bush Lump Charcoal for Barbecue
+              and restaurant Charcoal, Charcoal Fines and Briquettes, both FSC
+              and Non-FSC.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a [routerLink]="['/index']">Home</a></li>
+            <li><a [routerLink]="['/about']">About us</a></li>
+            <li><a [routerLink]="['/contact']">Contact Us</a></li>
+            <li><a [routerLink]="['/faq']">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Helpfull Links</h4>
+          <ul>
+            <li><a [routerLink]="['/term']">Terms of Use</a></li>
+            <li><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+            <li><a [routerLink]="['/policy']">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 foot_social">
+          <h4>Social Connect</h4>
+          <div class="mt-3">
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/facebook.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/twitter.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/linkdin.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/whatsapp.png"
+            /></a>
+          </div>
+          <div class="mt-3">
+            <h4>Payment Method</h4>
+            <a [routerLink]="['/payment']" class="mx-1"
+              ><img src="assets/img/payment1.png"
+            /></a>
+            <a [routerLink]="['/payment']" class="mx-1"
+              ><img src="assets/img/payment2.png"
+            /></a>
+            <a [routerLink]="['/payment']" class="mx-1"
+              ><img src="assets/img/payment3.png"
+            /></a>
+            <a [routerLink]="['/payment']" class="mx-1"
+              ><img src="assets/img/payment4.png"
+            /></a>
+            <a [routerLink]="['/payment']" class="mx-1"
+              ><img src="assets/img/payment5.png"
+            /></a>
+            <a [routerLink]="['/payment']" class="mx-1"
+              ><img src="assets/img/payment6.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="container-fluid footer_botm">
+  <div class="copyright">&copy; Copyright 2022, Inc All Rights Reserved</div>
+  <div class="credits"></div>
+</div>
+
+<!-- Browse Charcoal Products and Firewood end -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i
+></a>

@@ -1,0 +1,657 @@
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-flex align-items-center fixed-top">
+  <div
+    class="container d-flex align-items-center justify-content-end justify-content-md-end"
+  >
+    <div class="d-flex align-items-center me-2">
+      <i class="bi bi-headphones"></i> Customer Support
+    </div>
+    <div class="d-flex align-items-center"><i class="bi bi-globe"></i> ENG</div>
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <a [routerLink]="['/index']" class="logo me-auto"
+      ><img src="assets/img/logo.png" alt=""
+    /></a>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" [routerLink]="['/index']">Home</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/buy']">buy</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/sell']">sell</a></li>
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/transport']"
+            >Transport</a
+          >
+        </li>
+        <li><a class="nav-link scrollto" [routerLink]="['']">About Us</a></li>
+        <li><a class="nav-link scrollto" [routerLink]="['/faq']">FAQ</a></li>
+
+        <li>
+          <a class="nav-link scrollto" [routerLink]="['/contact']">Contact</a>
+        </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!-- .navbar -->
+    <a [routerLink]="['/login']" class="login-btn scrollto">log in</a>
+    <a [routerLink]="['/register']" class="appointment-btn scrollto"
+      >Register</a
+    >
+  </div>
+</header>
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section class="general-service-section">
+  <div class="general-service-section-title text-center">
+    <h1 class="fw-bolder">About Us</h1>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!-- Browse Charcoal Products and Firewood start -->
+<div class="d-flex flex-row justify-content-center">
+  <div class="bread-crums-main">
+    <a [routerLink]="['/index']" class="active">home</a>
+    <a [routerLink]="['']">About Us</a>
+  </div>
+</div>
+<section class="container">
+  <div class="row">
+    <div class="col-md-6 about_firstpr">
+      <img src="./assets/img/Group 9-1.png" class="who_img pb-2" />
+      <h1 class="fw-bold"><span>Who</span> we are</h1>
+      <p class="text-black">
+        CharcoalNet is a subsidiary of Kaptau Packaging (Pty) Ltd, a proud
+        Namibian enterprise that endeavors to crate the most value for its
+        shareholders, take good care of the environment, be easier to work with
+        and rewarding to work for.
+      </p>
+      <p>
+        CharcoalNet defining values are innovation in solutions we provide,
+        impact on communities we serve and integrity throughout our conduct. In
+        our quest to uplift livelihoods, rehabilitate Namibia savannahs and to
+        ensure your delight, we have created this secure B2B marketplace for
+        your convenience. All products traded on this platform are sustainably
+        harvested from Namibia encroacher bush species using only the best and
+        responsible environmental practices. Charcoal and Firewood sold on this
+        platform is your responsible choice, compared to charcoal sourced from
+        other areas prone to poor forest management.
+      </p>
+      <div class="about_count py-4">
+        <h3 class="fw-bold">
+          <img src="./assets/img/Ghrline.svg" width="20px" height="40px" />250 +
+          MT
+        </h3>
+        <p class="text-black ps-4">Charcoal in stock</p>
+      </div>
+      <div class="about_count">
+        <h3 class="fw-bold">
+          <img src="./assets/img/Ghrline.svg" width="20px" height="40px" />480MT
+          +
+        </h3>
+        <p class="text-black ps-4">Charcoal in stock</p>
+      </div>
+    </div>
+    <div class="col-md-6 aboutfirstim">
+      <img src="assets/img/about1.png" />
+    </div>
+  </div>
+</section>
+
+<!-- <section class="button">
+  <div class="container-lg py-2">
+    <button
+      class="btn btn-dark btn-sm text-uppercase"
+      onclick="myFunction()"
+      id="btnValue"
+      type="button"
+    >
+      Dark mode
+    </button>
+  </div>
+</section> -->
+<!-- START CUSTOM SLIDER -->
+<section id="agenda" class="custom-slider">
+  <div class="container py-5">
+    <div class="container px-0">
+      <div class="row">
+        <div class="col-md-10 our_pro_txt">
+          <img src="assets/img/Group 9-1.png" />
+          <h3 class="fw-bold"><span>Our</span>Products</h3>
+          <p>
+            In the process of uplifting livelihoods, rehabilitating savannahs
+            and ensuring your delight – all our products are sustainably
+            harvested from Namibia encroacher bush species using only the best
+            guidelines and responsible environmental practices. Charcoal and
+            Firewood on this platform is a sustainable choice, compared to other
+            sources prone to poor forest management. Our products are available
+            in FSC and Non-FSC.
+          </p>
+        </div>
+        <div class="col clearfix">
+          <span class="title-section lf_ri_arrow d-flex justify-content-end">
+            <button class="btn btn-archive btn-sm prev-btn" type="button">
+              <i class="fas fa-arrow-left"></i>
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+              <span class="visually-hidden">Previous</span></button
+            ><span class="mx-1">&nbsp;</span>
+            <button class="btn btn-archive btn-sm next-btn" type="button">
+              <i class="fas fa-arrow-right"></i>
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <span class="visually-hidden">Next</span>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Slider main container -->
+    <div class="swiper-container" style="margin: 0px 61px">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper" data-interval="false">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="col">
+            <div class="card box-4 shadow-sm h-100">
+              <div class="product-firewood-about1">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="col">
+            <div class="card box-4 shadow-sm h-100">
+              <div class="product-firewood-about2">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="col">
+            <div class="card box-4 shadow-sm h-100">
+              <div class="product-firewood-about3">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="product-firewood-about4">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <div class="product-firewood-about2">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END CUSTOM SLIDER -->
+
+<!-- ------------------------------------------------------->
+<section container>
+  <div class="row about_bag">
+    <div class="col-md-8">
+      <div class="about_thirdse">
+        <div class="d-flex mr-auto justify-content-center">
+          <img src="assets/img/trustico.png" />
+        </div>
+        <h3
+          class="justify-content-center d-flex mr-auto about_firstpr pt-2 fw-bold"
+        >
+          <span>What</span> We Do
+        </h3>
+        <div class="head_ctr">
+          <h5 class="py-4">
+            Deliberately better than everyone else, CharcoalNet:
+          </h5>
+          <p class="">
+            Verifies, screen, test and accurately pack Charcoal with precision
+            in bulk or in ready-to-market packaging, auctioned to the highest
+            bidder on our digital platform.
+          </p>
+          <p class="">
+            Produce and auction our own house brand of premium quality
+            Briquettes and Shisha Charcoal with excellent heat retention and
+            porosity properties.
+          </p>
+          <p class="">
+            On request, ably handle logistics to ship/deliver goods to clients
+            worldwide. We work closely with Shipping lines to provide them with
+            self-heating tests and weathering certificates for Charcoal.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 text-lack">
+      <p class="mx-2 mt-2">
+        Our products are available in FSC and Non-FSC variants. As an avid
+        environmental and forestry management enthusiast of note, CharcoalNet is
+        FSC certified value addition service provider.
+      </p>
+      <p class="mx-2">
+        Our stock holding level is kept at minimum 3,000 tons, securely housed,
+        sorted and labeled for easy traceability and to ensure consistency in
+        stock availability.
+      </p>
+      <p class="mx-2">
+        CharcoalNet have an inhouse industrial laboratory for testing the
+        composition of Charcoal such as fixed carbon, ash content, moisture
+        content and volatile matter.
+      </p>
+    </div>
+    <div class="col-md-1 text_lack1"></div>
+  </div>
+</section>
+<section class="container text-center comp_sec">
+  <div class="">
+    <p class="text-center">
+      By trading through CharcoalNet, you get the best of both online and
+      offline worlds in at least six statistical categories:
+    </p>
+  </div>
+  <div class="row third_imgn text-center">
+    <div class="col-md-4 my-4">
+      <img src="./assets/img/Efficiency.svg" />
+      <p class="fw-bold">Efficiency</p>
+      <p>
+        you save time, money, and you are spared from inconveniences that can
+        set you back.
+      </p>
+    </div>
+    <div class="col-md-4 my-4">
+      <img src="./assets/img/secured.svg" />
+      <p class="fw-bold">Secure</p>
+      <p>
+        Payments through CharcoalNet are encrypted with leading edge technology.
+        We assure you a peace of mind as the product you pay for is warehoused
+        by us and we perform
+      </p>
+    </div>
+    <div class="col-md-4 my-4">
+      <img src="./assets/img/exposure.svg" />
+      <p class="fw-bold">Exposure</p>
+      <p>
+        This is by far the largest B2B charcoal marketplace of its kind,
+        frequented by reputable producers and decision makers from around the
+        world.
+      </p>
+    </div>
+  </div>
+  <div class="row third_imgn text-center">
+    <div class="col-md-4">
+      <img src="./assets/img/compresive.svg" />
+      <p class="fw-bold">Comprehensive</p>
+      <p>
+        You get the most comprehensive logistics services from farm gate
+        collections to global shipping and deliveries, including clearance.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src="./assets/img/competitive.svg" />
+      <p class="fw-bold">Competitive</p>
+      <p>
+        Because of the competitive nature of our auctions, you are guaranteed to
+        always get the most value for your money.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src="./assets/img/support.svg" />
+      <p class="fw-bold">Support</p>
+      <p>
+        We hold your hand and walk with you every step of the way to enhance a
+        positive user experience through our 24/hrs customer support.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="how_section">
+  <div class="container howwork">
+    <div class="how_img d-flex mr-auto justify-content-center">
+      <img src="assets/img/Group9.svg" />
+    </div>
+    <div class="d-flex mr-auto justify-content-center font-bold how_head">
+      <h4 class="fw-bold"><span>How It</span> Work</h4>
+    </div>
+    <div class="row justify-content-center how_dest">
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group5.svg" />
+          </div>
+          <div class="howhr_line">
+            <img src="assets/img/howhrline1.png" class="howsec_img1" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p class="one_t">1</p>
+        </div>
+        <h5>register</h5>
+        <p>
+          Registering as a Buyer is easy and FREE. Our Auctions are only
+          available to registered users. Information provided will be verified.
+          Click here to register.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group1.svg" />
+          </div>
+          <div class="howhr_line1">
+            <img src="assets/img/howhrline2.png" class="howsec_img" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>2</p>
+        </div>
+        <h5>Choose Product</h5>
+        <p>
+          Browse auction lots by clicking product categories: Restaurant
+          Charcoal, Barbecue Charcoal, Charcoal Fines, Shisha Charcoal,
+          Briquettes or Firewood.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group4.svg" />
+          </div>
+          <div class="howhr_line">
+            <img src="assets/img/howhrline1.png" class="howsec_img1" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>3</p>
+        </div>
+        <h5>Make bid</h5>
+        <p>
+          Bid on any auction by entering your bid amount above the minimum bid
+          in the "Bid Now" box. A valid credit card or payment source is
+          required to be on file in order to place a bid, as this is
+          automatically processed in the event you are the winner at the close
+          of the auction.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <div class="d-flex mr-auto">
+          <div class="">
+            <img src="assets/img/Group7.svg" />
+          </div>
+          <div class="howhr_line1">
+            <img src="assets/img/howhrline2.png" class="howsec_img" />
+          </div>
+        </div>
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>4</p>
+        </div>
+        <h5>Pay Amount</h5>
+        <p>
+          If you are the successful bidder, a non-refundable 10% of the purchase
+          price is automatically processed at the close of the auction from your
+          payment source on file. The balance is to be paid via Wire
+          Transfer/EFT within 72hrs. We accept PayPal, Credit Card and Wire
+          Transfer.
+        </p>
+      </div>
+      <div class="col-md-2 hm">
+        <img src="assets/img/Group6.svg" />
+        <div class="d-flex mr-auto pt-4 how_no">
+          <p>5</p>
+        </div>
+        <h5>Get Product</h5>
+        <p>
+          Receive or Collect your goods, depending on delivery option you have
+          selected, subject to full settlement of all applicable and additional
+          charges.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--  charcoal testional  ------------------------------------------->
+
+<section id="testimonials" class="testimonials trusted_sec sec_test">
+  <div class="container tes_mon" data-aos="fade-up">
+    <div class="how_img d-flex mr-auto justify-content-center">
+      <img src="assets/img/trustico.png" />
+    </div>
+    <div
+      class="d-flex mr-auto justify-content-center text-white font-bold how_head"
+    >
+      <h4 class="fw-bold">Trusted By</h4>
+    </div>
+
+    <div
+      class="testimonials-slider swiper mt-4"
+      data-aos="fade-up"
+      data-aos-delay="100"
+    >
+      <div class="swiper-wrapper">
+        <swiper
+          [config]="config"
+          [autoplay]="{ delay: 1000, disableOnInteraction: false }"
+          [loop]="true"
+        >
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-1.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+
+                <h3>Tom Powell</h3>
+                <p>
+                  This was my first time, but it was exciting. I will try it
+                  again. Thank you so much.
+                </p>
+              </div>
+            </div></ng-template
+          >
+
+          <!-- End testimonial item -->
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-2.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+
+                <h3>Tom Powell</h3>
+                <p>
+                  I can't stop bidding! It's a great way to spend some time and
+                  I want everything on Sbidu.
+                </p>
+              </div>
+            </div></ng-template
+          >
+
+          <!-- End testimonial item -->
+          <ng-template swiperSlide>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimonials/testimonials-3.jpg"
+                  class="testimonial-img"
+                  alt=""
+                />
+
+                <h3>Tom Powell</h3>
+                <p>
+                  This was my first time, but it was exciting. I will try it
+                  again. Thank you so much.
+                </p>
+              </div>
+            </div></ng-template
+          >
+        </swiper>
+        <!-- End testimonial item -->
+
+        <!-- End testimonial item -->
+
+        <!-- End testimonial item -->
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- <swiper
+[slidesPerView]="3"
+[spaceBetween]="30"
+[slidesPerGroup]="3"
+[loop]="true"
+[loopFillGroupWithBlank]="true"
+[pagination]="{
+  clickable: true
+}"
+[autoplay]="{delay:1000,disableOnInteraction: false}"
+[navigation]="true"
+class="mySwiper"
+
+  >
+  <ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg" width="100px" height="100px"></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg" width="100px" height="100px"></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg" width="100px" height="100px"></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg" width="100px" height="100px"></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg" width="100px" height="100px"></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg" width="100px" height="100px" ></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg"width="100px" height="100px"></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg"width="100px" height="100px"></ng-template
+    ><ng-template swiperSlide><img src="assets/img/testimonials/testimonials-2.jpg"width="100px" height="100px"></ng-template>
+</swiper> -->
+
+<!--  -->
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container footer_btn">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>CharcoalNet</h3>
+            <p>
+              CharcoalNet is the largest B2B online market place trading
+              sustainably harvested encroacher bush Lump Charcoal for Barbecue
+              and restaurant Charcoal, Charcoal Fines and Briquettes, both FSC
+              and Non-FSC.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a [routerLink]="['/index']">Home</a></li>
+            <li><a [routerLink]="['/about']">About us</a></li>
+            <li><a [routerLink]="['/contact']">Contact Us</a></li>
+            <li><a [routerLink]="['/faq']">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Helpfull Links</h4>
+          <ul>
+            <li><a [routerLink]="['/term']">Terms of Use</a></li>
+            <li><a [routerLink]="['/disclaimer']">Disclaimer</a></li>
+            <li><a [routerLink]="['/policy']">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 foot_social">
+          <h4>Social Connect</h4>
+          <div class="mt-3">
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/facebook.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/twitter.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/linkdin.png"
+            /></a>
+            <a [routerLink]="['/social']"
+              ><img src="assets/img/whatsapp.png"
+            /></a>
+          </div>
+          <div class="mt-3">
+            <h4>Payment Method</h4>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment1.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment2.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment3.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment4.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment5.png"
+            /></a>
+            <a [routerLink]="['/payment']"
+              ><img src="assets/img/payment6.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="container-fluid footer_botm">
+  <div class="copyright">&copy; Copyright 2022, Inc All Rights Reserved</div>
+  <div class="credits"></div>
+</div>
+
+<!-- Browse Charcoal Products and Firewood end -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i
+></a>
+
+<script>
+  //dark mode
+  function myFunction() {
+    var element = document.getElementById("agenda");
+    element.classList.toggle("dark-mode");
+
+    var x = document.getElementById("btnValue");
+    if (x.innerHTML === "Dark mode") {
+      x.innerHTML = "Light mode";
+      x.classList.remove("btn-dark");
+      x.classList.toggle("btn-light");
+    } else {
+      x.innerHTML = "Dark mode";
+      x.classList.remove("btn-light");
+      x.classList.toggle("btn-dark");
+    }
+  }
+</script>
